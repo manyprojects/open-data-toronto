@@ -1,6 +1,8 @@
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useMemo, useRef, useState } from 'react';
 import './Map.scss';
 import graphOne from '../../assets/graphs/trendline_occupancy.png';
+import graphTwo from '../../assets/graphs/newplot.png';
+import dash from '../../assets/graphs/dash.png';
 import Places from '../Places/Places';
 import {
   GoogleMap,
@@ -19,10 +21,9 @@ const options = {
 const Map = () => {
   const mapRef = useRef();
   const onLoad = useCallback((map) => (mapRef.current = map), []);
+  const shelters = useMemo(() => generateShelters(center), [center]);
 
   const [location, setLocation] = useState(null);
-
-  console.log(location);
 
   return (
     <div className='container'>
@@ -52,12 +53,21 @@ const Map = () => {
 
       <div className='map'>
         <GoogleMap
-          zoom={10}
+          zoom={8}
           center={center}
-          // options={options}
+          options={options}
           mapContainerClassName='map-container'
           onLoad={onLoad}
-        ></GoogleMap>
+        >
+          {location && <Marker position={location} />}
+
+          {shelters.map((shelter) => (
+            <Marker
+              key={shelter.lat}
+              position={shelter}
+            />
+          ))}
+        </GoogleMap>
       </div>
 
       <div className='stats'>
@@ -70,17 +80,41 @@ const Map = () => {
           />
         </div>
         <div className='stats__four'>
-          <h1 className='stat__title'>Graph 2</h1>
+          <h4 className='stat__title'>Weekly Average Room Occupancy Rate</h4>
 
           <img
-            src={graphOne}
+            src={graphTwo}
             alt='graph'
             className='graph__one'
           />
         </div>
       </div>
+
+      <div className='stats__bottom'>
+        <img
+          src={dash}
+          alt='Dashboard'
+        />
+      </div>
     </div>
   );
+};
+
+const generateShelters = (position) => {
+  // const shelters = [
+  //   { lat: 42, lng: -80 },
+  //   { lat: 44, lng: -80 },
+  //   { lat: 46, lng: -80 },
+  // ];
+  const shelters = [];
+  for (let i = 0; i < 100; i++) {
+    const direction = Math.random() < 0.5 ? -2 : 2;
+    shelters.push({
+      lat: position.lat + Math.random() / direction,
+      lng: position.lng + Math.random() / direction,
+    });
+  }
+  return shelters;
 };
 
 export default Map;
