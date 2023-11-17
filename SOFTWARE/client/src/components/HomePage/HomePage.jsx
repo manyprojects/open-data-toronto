@@ -86,13 +86,12 @@ const HomePage = () => {
       {/* MAIN CONTENT */}
       <main className='main'>
         <section className='main__content'>
-          <article className='about'>
-            <h1 className='about__title'>
-              <span>About</span> Daily Shelter & Overnight Service Occupancy &
-              Capacity
-            </h1>
+          {/* <article className='about'> */}
+          <h1 className='about__title'>
+            Daily Shelter & Overnight Service Occupancy & Capacity
+          </h1>
 
-            <p className='about__description'>
+          {/* <p className='about__description'>
               This data set provides a daily list of active overnight shelter
               and allied services in the Shelter Support and Housing
               Administration division's Shelter Management Information System
@@ -103,14 +102,14 @@ const HomePage = () => {
               approach taken in the{' '}
               <a
                 className='about__description__link'
-                href='https://open.toronto.ca/dataset/daily-shelter-occupancy/'
+                href='/'
               >
                 Daily Shelter Occupancy data set
               </a>
               , starting with the current year data for 2021. This new data set
               includes the following revisions:
-            </p>
-          </article>
+            </p> */}
+          {/* </article> */}
           <AccordionComponent />
         </section>
       </main>
