@@ -37,9 +37,14 @@ const Map = () => {
         <GoogleMap
           zoom={10}
           center={center}
-          //   options={options} we turn this on if we want use controls like street view
+          options={options}
           mapContainerClassName='map-container'
-        ></GoogleMap>
+        >
+          <Marker
+            position={center}
+            icon='https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
+          />
+        </GoogleMap>
       </div>
 
       <div className='stats'>
