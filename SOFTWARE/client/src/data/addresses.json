@@ -1,0 +1,478 @@
+[
+    {
+        "SHELTER_ID": 40,
+        "LOCATION_ADDRESS": "640 Dixon Rd."
+    },
+    {
+        "SHELTER_ID": 40,
+        "LOCATION_ADDRESS": "100 Lippincott St"
+    },
+    {
+        "SHELTER_ID": 40,
+        "LOCATION_ADDRESS": "55 Hallcrown Pl"
+    },
+    {
+        "SHELTER_ID": 22,
+        "LOCATION_ADDRESS": "445 Rexdale Blvd"
+    },
+    {
+        "SHELTER_ID": 22,
+        "LOCATION_ADDRESS": "14 Roncesvalles Ave"
+    },
+    {
+        "SHELTER_ID": 22,
+        "LOCATION_ADDRESS": "973 Lansdowne Ave"
+    },
+    {
+        "SHELTER_ID": 22,
+        "LOCATION_ADDRESS": "850 Bloor St W"
+    },
+    {
+        "SHELTER_ID": 39,
+        "LOCATION_ADDRESS": "43 Christie St"
+    },
+    {
+        "SHELTER_ID": 53,
+        "LOCATION_ADDRESS": "1229 Ellesmere Rd"
+    },
+    {
+        "SHELTER_ID": 53,
+        "LOCATION_ADDRESS": "1677 Wilson Ave"
+    },
+    {
+        "SHELTER_ID": 60,
+        "LOCATION_ADDRESS": "1651 Sheppard Ave W"
+    },
+    {
+        "SHELTER_ID": 83,
+        "LOCATION_ADDRESS": "808 Mt Pleasant Rd"
+    },
+    {
+        "SHELTER_ID": 83,
+        "LOCATION_ADDRESS": "20 Milner Business Ct"
+    },
+    {
+        "SHELTER_ID": 2,
+        "LOCATION_ADDRESS": "4222 Kingston Rd"
+    },
+    {
+        "SHELTER_ID": 2,
+        "LOCATION_ADDRESS": "4674 Kingston Rd"
+    },
+    {
+        "SHELTER_ID": 2,
+        "LOCATION_ADDRESS": "4540 Kingston Rd"
+    },
+    {
+        "SHELTER_ID": 62,
+        "LOCATION_ADDRESS": "38 Bathurst St"
+    },
+    {
+        "SHELTER_ID": 62,
+        "LOCATION_ADDRESS": "3600 Steeles Ave W"
+    },
+    {
+        "SHELTER_ID": 94,
+        "LOCATION_ADDRESS": "705 Progress Ave"
+    },
+    {
+        "SHELTER_ID": 54,
+        "LOCATION_ADDRESS": "291 Sherbourne St"
+    },
+    {
+        "SHELTER_ID": 82,
+        "LOCATION_ADDRESS": "339 George St"
+    },
+    {
+        "SHELTER_ID": 59,
+        "LOCATION_ADDRESS": "4584 Kingston Rd"
+    },
+    {
+        "SHELTER_ID": 59,
+        "LOCATION_ADDRESS": "3306 Kingston Rd"
+    },
+    {
+        "SHELTER_ID": 3,
+        "LOCATION_ADDRESS": "731 Runnymede Rd"
+    },
+    {
+        "SHELTER_ID": 3,
+        "LOCATION_ADDRESS": "339 George St"
+    },
+    {
+        "SHELTER_ID": 3,
+        "LOCATION_ADDRESS": "76 Church St"
+    },
+    {
+        "SHELTER_ID": 6,
+        "LOCATION_ADDRESS": "129 Peter St"
+    },
+    {
+        "SHELTER_ID": 4,
+        "LOCATION_ADDRESS": "77 Ryerson Ave"
+    },
+    {
+        "SHELTER_ID": 4,
+        "LOCATION_ADDRESS": "674 Dundas St W"
+    },
+    {
+        "SHELTER_ID": 21,
+        "LOCATION_ADDRESS": "616 Vaughan Rd"
+    },
+    {
+        "SHELTER_ID": 20,
+        "LOCATION_ADDRESS": "20 Gerrard St E"
+    },
+    {
+        "SHELTER_ID": 20,
+        "LOCATION_ADDRESS": "92 Peter St"
+    },
+    {
+        "SHELTER_ID": 20,
+        "LOCATION_ADDRESS": "21 McGill St"
+    },
+    {
+        "SHELTER_ID": 80,
+        "LOCATION_ADDRESS": "351 Lake Shore Blvd E"
+    },
+    {
+        "SHELTER_ID": 9,
+        "LOCATION_ADDRESS": "354 George St"
+    },
+    {
+        "SHELTER_ID": 9,
+        "LOCATION_ADDRESS": "65 Dundas St E"
+    },
+    {
+        "SHELTER_ID": 9,
+        "LOCATION_ADDRESS": "2714 Danforth Ave"
+    },
+    {
+        "SHELTER_ID": 9,
+        "LOCATION_ADDRESS": "60 York St"
+    },
+    {
+        "SHELTER_ID": 9,
+        "LOCATION_ADDRESS": "56 Yonge St"
+    },
+    {
+        "SHELTER_ID": 14,
+        "LOCATION_ADDRESS": "349 George St"
+    },
+    {
+        "SHELTER_ID": 19,
+        "LOCATION_ADDRESS": "60 Brant St"
+    },
+    {
+        "SHELTER_ID": 18,
+        "LOCATION_ADDRESS": "360 Lesmill Rd"
+    },
+    {
+        "SHELTER_ID": 18,
+        "LOCATION_ADDRESS": "92 Peter St"
+    },
+    {
+        "SHELTER_ID": 41,
+        "LOCATION_ADDRESS": "70 Denison Ave"
+    },
+    {
+        "SHELTER_ID": 41,
+        "LOCATION_ADDRESS": "490 Sherbourne St"
+    },
+    {
+        "SHELTER_ID": 58,
+        "LOCATION_ADDRESS": "386 Dundas St E"
+    },
+    {
+        "SHELTER_ID": 58,
+        "LOCATION_ADDRESS": "512 Jarvis St"
+    },
+    {
+        "SHELTER_ID": 42,
+        "LOCATION_ADDRESS": "67 Adelaide St E"
+    },
+    {
+        "SHELTER_ID": 42,
+        "LOCATION_ADDRESS": "1059 College Street"
+    },
+    {
+        "SHELTER_ID": 44,
+        "LOCATION_ADDRESS": "1161 Caledonia Rd"
+    },
+    {
+        "SHELTER_ID": 44,
+        "LOCATION_ADDRESS": "185 Yorkland Blvd"
+    },
+    {
+        "SHELTER_ID": 72,
+        "LOCATION_ADDRESS": "1A Strachan Ave"
+    },
+    {
+        "SHELTER_ID": 85,
+        "LOCATION_ADDRESS": "257 Dundas St E"
+    },
+    {
+        "SHELTER_ID": 16,
+        "LOCATION_ADDRESS": "412 Queen St E"
+    },
+    {
+        "SHELTER_ID": 16,
+        "LOCATION_ADDRESS": "35 Sydenham St"
+    },
+    {
+        "SHELTER_ID": 16,
+        "LOCATION_ADDRESS": "335 Jarvis St"
+    },
+    {
+        "SHELTER_ID": 68,
+        "LOCATION_ADDRESS": "702 Kennedy Rd"
+    },
+    {
+        "SHELTER_ID": 25,
+        "LOCATION_ADDRESS": "60 York St"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "545 Lake Shore Blvd W"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "4117 Lawrence Ave E"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "22 Metropolitan Rd"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "2035 Kennedy Rd"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "339 George St"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "101 Placer Ct"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "3576 St Clair Ave E"
+    },
+    {
+        "SHELTER_ID": 24,
+        "LOCATION_ADDRESS": "5800 Yonge St"
+    },
+    {
+        "SHELTER_ID": 13,
+        "LOCATION_ADDRESS": "422 Gilbert Ave"
+    },
+    {
+        "SHELTER_ID": 57,
+        "LOCATION_ADDRESS": "1076 Pape Ave"
+    },
+    {
+        "SHELTER_ID": 67,
+        "LOCATION_ADDRESS": "21 Park Rd"
+    },
+    {
+        "SHELTER_ID": 1,
+        "LOCATION_ADDRESS": "14 Vaughan Rd"
+    },
+    {
+        "SHELTER_ID": 1,
+        "LOCATION_ADDRESS": "26 Vaughan Rd"
+    },
+    {
+        "SHELTER_ID": 12,
+        "LOCATION_ADDRESS": "558 Bathurst St"
+    },
+    {
+        "SHELTER_ID": 12,
+        "LOCATION_ADDRESS": "92 Peter St"
+    },
+    {
+        "SHELTER_ID": 65,
+        "LOCATION_ADDRESS": "962 Bloor St W"
+    },
+    {
+        "SHELTER_ID": 34,
+        "LOCATION_ADDRESS": "126 Pape Ave"
+    },
+    {
+        "SHELTER_ID": 38,
+        "LOCATION_ADDRESS": "60 Newcastle St"
+    },
+    {
+        "SHELTER_ID": 37,
+        "LOCATION_ADDRESS": "70 Gerrard St E"
+    },
+    {
+        "SHELTER_ID": 31,
+        "LOCATION_ADDRESS": "3410 Bayview Ave"
+    },
+    {
+        "SHELTER_ID": 66,
+        "LOCATION_ADDRESS": "25 Augusta Ave"
+    },
+    {
+        "SHELTER_ID": 66,
+        "LOCATION_ADDRESS": "69 Fraser Ave"
+    },
+    {
+        "SHELTER_ID": 30,
+        "LOCATION_ADDRESS": "556 Sherbourne St"
+    },
+    {
+        "SHELTER_ID": 36,
+        "LOCATION_ADDRESS": "87 Pembroke St"
+    },
+    {
+        "SHELTER_ID": 36,
+        "LOCATION_ADDRESS": "26 Gerrard St E"
+    },
+    {
+        "SHELTER_ID": 47,
+        "LOCATION_ADDRESS": "165 Grange Ave"
+    },
+    {
+        "SHELTER_ID": 47,
+        "LOCATION_ADDRESS": "101 Ontario St"
+    },
+    {
+        "SHELTER_ID": 28,
+        "LOCATION_ADDRESS": "2808 Dundas St W"
+    },
+    {
+        "SHELTER_ID": 11,
+        "LOCATION_ADDRESS": "66 Norfinch Dr"
+    },
+    {
+        "SHELTER_ID": 29,
+        "LOCATION_ADDRESS": "107 Jarvis St"
+    },
+    {
+        "SHELTER_ID": 45,
+        "LOCATION_ADDRESS": "50 Estate Dr"
+    },
+    {
+        "SHELTER_ID": 45,
+        "LOCATION_ADDRESS": "135 Sherbourne St"
+    },
+    {
+        "SHELTER_ID": 73,
+        "LOCATION_ADDRESS": "66 Norfinch Dr"
+    },
+    {
+        "SHELTER_ID": 73,
+        "LOCATION_ADDRESS": "29A Leslie St"
+    },
+    {
+        "SHELTER_ID": 77,
+        "LOCATION_ADDRESS": "2671 Islington Ave"
+    },
+    {
+        "SHELTER_ID": 8,
+        "LOCATION_ADDRESS": "346 Spadina Ave."
+    },
+    {
+        "SHELTER_ID": 48,
+        "LOCATION_ADDRESS": "191 Spadina Rd"
+    },
+    {
+        "SHELTER_ID": 33,
+        "LOCATION_ADDRESS": "95 Wellesley St E"
+    },
+    {
+        "SHELTER_ID": 71,
+        "LOCATION_ADDRESS": "705 Progress Ave"
+    },
+    {
+        "SHELTER_ID": 27,
+        "LOCATION_ADDRESS": "339 George St"
+    },
+    {
+        "SHELTER_ID": 7,
+        "LOCATION_ADDRESS": "189B Booth Ave"
+    },
+    {
+        "SHELTER_ID": 5,
+        "LOCATION_ADDRESS": "7 Vanauley St"
+    },
+    {
+        "SHELTER_ID": 5,
+        "LOCATION_ADDRESS": "92 Peter St"
+    },
+    {
+        "SHELTER_ID": 64,
+        "LOCATION_ADDRESS": "21 Walmer Rd"
+    },
+    {
+        "SHELTER_ID": 50,
+        "LOCATION_ADDRESS": "80 Woodlawn Ave E"
+    },
+    {
+        "SHELTER_ID": 78,
+        "LOCATION_ADDRESS": "348 Davenport Road"
+    },
+    {
+        "SHELTER_ID": 52,
+        "LOCATION_ADDRESS": "6 Warrendale Ct"
+    },
+    {
+        "SHELTER_ID": 81,
+        "LOCATION_ADDRESS": "747 Warden Ave"
+    },
+    {
+        "SHELTER_ID": 59,
+        "LOCATION_ADDRESS": "150 Borough Dr"
+    },
+    {
+        "SHELTER_ID": 95,
+        "LOCATION_ADDRESS": "89 Church Ave."
+    },
+    {
+        "SHELTER_ID": 72,
+        "LOCATION_ADDRESS": "55 John St"
+    },
+    {
+        "SHELTER_ID": 22,
+        "LOCATION_ADDRESS": "339 George St"
+    },
+    {
+        "SHELTER_ID": 22,
+        "LOCATION_ADDRESS": "58 Cecil Street"
+    },
+    {
+        "SHELTER_ID": 95,
+        "LOCATION_ADDRESS": "15 Olive Ave"
+    },
+    {
+        "SHELTER_ID": 18,
+        "LOCATION_ADDRESS": "60 York Street"
+    },
+    {
+        "SHELTER_ID": 20,
+        "LOCATION_ADDRESS": "60 York St"
+    },
+    {
+        "SHELTER_ID": 18,
+        "LOCATION_ADDRESS": "60 York St"
+    },
+    {
+        "SHELTER_ID": 5,
+        "LOCATION_ADDRESS": "60 York St"
+    },
+    {
+        "SHELTER_ID": 12,
+        "LOCATION_ADDRESS": "111 Spadina Rd"
+    },
+    {
+        "SHELTER_ID": 18,
+        "LOCATION_ADDRESS": "339 George St"
+    },
+    {
+        "SHELTER_ID": 18,
+        "LOCATION_ADDRESS": "4584 Kingston Rd"
+    }
+]
