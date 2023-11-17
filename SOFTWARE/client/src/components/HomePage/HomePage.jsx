@@ -20,7 +20,7 @@ const HomePage = () => {
         <ul className='nav__list'>
           <li className='nav__list__item'>
             <a
-              className='nav__link'
+              className='nav__link nav__link--first'
               href=''
             >
               OPEN DATA

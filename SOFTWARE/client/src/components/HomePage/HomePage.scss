@@ -27,12 +27,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 60%;
+        width: 57%;
         list-style-type: none;
     }
 
     &__link {
         text-decoration: none;
+        color: $clr-blue-dark;
+
+        &--first {
+            font-weight: 900;
+        }
     }
 
     &__search {
@@ -46,7 +51,7 @@
         margin-right: 1rem;
 
         &:focus {
-            border: 0.0625rem solid $clr-blue-light-outline;
+            border: 0.0625rem solid $clr-blue-outline;
         }
     }
 
