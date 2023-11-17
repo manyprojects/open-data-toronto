@@ -2,6 +2,7 @@ import React from 'react';
 import './HomePage.scss';
 import AccordionComponent from '../AccordionComponent/AccordionComponent';
 import Nav from '../Nav/Nav';
+import Sidebar from '../Sidebar/Sidebar';
 
 const HomePage = () => {
   return (
@@ -20,10 +21,11 @@ const HomePage = () => {
       {/* main nav s*/}
       <Nav />
 
-      {/* sidebar */}
-
       {/* MAIN CONTENT */}
       <main className='main'>
+        {/* sidebar */}
+        <Sidebar />
+
         <section className='main__content'>
           {/* <article className='about'> */}
           <h1 className='about__title'>
