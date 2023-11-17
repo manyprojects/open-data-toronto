@@ -1,0 +1,17 @@
+@use '../../styles/partials/variables' as *;
+
+.header {
+    background-color: $clr-toronto-blue;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+
+    &__logo {
+        width: 10rem;
+        margin-left: 10rem;
+    }
+}
+
+.accordion {
+    margin: 2rem 10rem;
+}
