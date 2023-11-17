@@ -73,13 +73,14 @@ const HomePage = () => {
           </li>
         </ul>
 
-        <input
-          className='nav__search'
-          type='search'
-          placeholder='Search'
-        />
-
-        <button className='nav__button'>SEARCH</button>
+        <div className='search-container'>
+          <input
+            className='nav__search'
+            type='search'
+            placeholder='Search'
+          />
+          <button className='nav__button'>SEARCH</button>
+        </div>
       </nav>
 
       {/* MAIN CONTENT */}

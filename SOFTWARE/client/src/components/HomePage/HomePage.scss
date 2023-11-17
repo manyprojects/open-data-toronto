@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 0 10rem;
+    margin: 0 10rem 0 8rem;
     padding: 1rem 0;
 
     &__list {
@@ -43,6 +43,7 @@
         height: 2.5rem;
         width: 19.4rem;
         padding: 0 .5rem;
+        margin-right: 1rem;
 
         &:focus {
             border: 0.0625rem solid $clr-blue-light-outline;
