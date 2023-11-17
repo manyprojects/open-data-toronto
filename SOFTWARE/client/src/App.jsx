@@ -3,7 +3,7 @@ import HomePage from './components/HomePage/HomePage';
 
 function App() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyDoVgew2-FFcZT20wm33gLVXP6uvgfL6d0',
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     libraries: ['places'],
   });
 

@@ -28,7 +28,7 @@ const HomePage = () => {
 
         <section className='main__content'>
           {/* <article className='about'> */}
-          <h1 className='about__title'>
+          <h1 className='main__title'>
             Daily Shelter & Overnight Service Occupancy & Capacity
           </h1>
 
