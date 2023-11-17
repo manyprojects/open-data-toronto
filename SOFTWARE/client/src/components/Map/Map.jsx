@@ -1,15 +1,22 @@
-import React, { useCallback, useMemo, useRef, useState } from 'react';
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import './Map.scss';
 import graphOne from '../../assets/graphs/trendline_occupancy.png';
 import graphTwo from '../../assets/graphs/newplot.png';
 import dash from '../../assets/graphs/dash.png';
 import Places from '../Places/Places';
+import shelterGeo from '../../data/geocodes.json';
 import {
   GoogleMap,
   Marker,
-  DirectionsRenderer,
-  Circle,
-  MarkerClusterer,
+  // DirectionsRenderer,
+  // Circle,
+  // MarkerClusterer,
 } from '@react-google-maps/api';
 
 const center = { lat: 44, lng: -80 };
@@ -21,25 +28,34 @@ const options = {
 const Map = () => {
   const mapRef = useRef();
   const onLoad = useCallback((map) => (mapRef.current = map), []);
-  const shelters = useMemo(() => generateShelters(center), [center]);
+  const shelters = useMemo(() => {
+    return shelterGeo;
+  }, [center]);
+  // const shelters = useMemo(() => {
+  //   return generateShelters(center);
+  // }, [center]);
 
   const [location, setLocation] = useState(null);
 
   return (
     <div className='container'>
+      <h1 className='insights'>Key Insights</h1>
       <div className='stats'>
-        <div className='stats__one'>
-          <h1 className='stat__title'>Stat 1</h1>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, eius.
-          Aliquid natus aliquam quaerat, doloribus, magni temporibus cumque
-          repellat et similique dolor qui. Maxime, alias dolore? Dicta quidem
-          amet rem!
+        <div className='stats__one stat'>
+          <h1 className='stat__title'>61</h1>
+          <p>number of open shelters</p>
+          <p className='update'>updated 10s ago</p>
         </div>
-        <div className='stats__two'>
-          <h1 className='stat__title'>Stat 2</h1>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus porro
-          rem, reiciendis, nihil est quae voluptate maxime iure assumenda fugiat
-          alias? Magnam aliquam, autem consequatur ut numquam minus qui porro.
+        <div className='stats__two stat'>
+          <h1 className='stat__title'>8940</h1>
+          <p>average service users per day</p>
+          <p className='update'>updated 5mins ago</p>
+        </div>
+
+        <div className='stats__one stat'>
+          <h1 className='stat__title'>41</h1>
+          <p>organizations running shelters</p>
+          <p className='update'>updated 2mins ago</p>
         </div>
       </div>
 
@@ -61,12 +77,15 @@ const Map = () => {
         >
           {location && <Marker position={location} />}
 
-          {shelters.map((shelter) => (
-            <Marker
-              key={shelter.lat}
-              position={shelter}
-            />
-          ))}
+          {shelters &&
+            shelters.map((shelter) => {
+              return (
+                <Marker
+                  key={(shelter.lat, shelter.lng)}
+                  position={shelter}
+                />
+              );
+            })}
         </GoogleMap>
       </div>
 
@@ -101,11 +120,6 @@ const Map = () => {
 };
 
 const generateShelters = (position) => {
-  // const shelters = [
-  //   { lat: 42, lng: -80 },
-  //   { lat: 44, lng: -80 },
-  //   { lat: 46, lng: -80 },
-  // ];
   const shelters = [];
   for (let i = 0; i < 100; i++) {
     const direction = Math.random() < 0.5 ? -2 : 2;

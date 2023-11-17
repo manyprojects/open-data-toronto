@@ -25,7 +25,7 @@
     &__bottom {
         border: 0.0625rem solid lightgrey;
         border-radius: .25rem;
-        padding: 2rem;
+        padding: 1.25rem 2rem;
     }
 
     &__bottom {
@@ -37,7 +37,37 @@
     }
 }
 
+.stat {
+    width: 40%;
+
+    h1 {
+        color: $clr-blue-dark;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    p:not(.update) {
+        font-weight: bold;
+        font-size: smaller;
+        text-align: center;
+    }
+
+    .update {
+        font-weight: normal;
+        font-size: smaller;
+        color: $clr-grey-light;
+        position: relative;
+        left: -1rem;
+        top: 1rem;
+    }
+}
 
 .graph__one {
     width: 100%;
+}
+
+.insights {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: $clr-blue-dark;
 }
