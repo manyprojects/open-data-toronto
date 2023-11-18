@@ -1,0 +1,14 @@
+@use '../../styles/partials/variables' as *;
+
+.combobox-input {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: .5rem;
+    border-radius: .25rem;
+    border: 0.0625rem solid rgba(0, 0, 0, .15);
+    outline: none;
+
+    &:focus {
+        border: 0.0625rem solid $clr-blue-outline;
+    }
+}

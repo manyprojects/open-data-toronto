@@ -4,7 +4,8 @@ const libraries = ['places'];
 
 function App() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyCzxYx6yohu8vzDGs-JrwpBvmR5rk2IBZ8',
+    // googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: 'AIzaSyD6oYJB9_Jk833g_FrZrSzBiRvEVQPve-0',
     libraries: libraries,
   });
 

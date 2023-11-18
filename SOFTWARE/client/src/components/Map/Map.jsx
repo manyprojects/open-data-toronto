@@ -28,14 +28,16 @@ const options = {
 const Map = () => {
   const mapRef = useRef();
   const onLoad = useCallback((map) => (mapRef.current = map), []);
+  const [location, setLocation] = useState(null);
+
   const shelters = useMemo(() => {
     return shelterGeo;
   }, [center]);
+
+  // backup;
   // const shelters = useMemo(() => {
   //   return generateShelters(center);
   // }, [center]);
-
-  const [location, setLocation] = useState(null);
 
   return (
     <div className='container'>
@@ -77,7 +79,8 @@ const Map = () => {
         >
           {location && <Marker position={location} />}
 
-          {shelters &&
+          {!location &&
+            shelters &&
             shelters.map((shelter) => {
               return (
                 <Marker
