@@ -30,9 +30,9 @@ To get started with the project locally, follow these steps:
 git clone git@github.com:manyprojects/open-data-toronto.git
 
 # Change into the project directory
-cd open-data-toronto
-cd SOFTWARE
-cd client
+cd open-data-toronto<br>
+cd SOFTWARE<br>
+cd client<br>
 
 # Install dependencies
 npm install
