@@ -31,6 +31,8 @@ git clone git@github.com:manyprojects/open-data-toronto.git
 
 # Change into the project directory
 cd open-data-toronto
+cd SOFTWARE
+cd client
 
 # Install dependencies
 npm install
