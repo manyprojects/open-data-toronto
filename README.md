@@ -1,7 +1,7 @@
 # Open Data Toronto Hackathon Project
 
 ## Project Screenshots
-![Screenshot 1](/open-data-toronto/localhost_3000_.png)
+![Screenshot 1](./localhost_3000_.png)
 
 ## Project Overview
 Welcome to the Open Data Toronto Hackathon project! Our goal is to enhance the accessibility and usability of the Open Data Toronto webpage. In this 24-hour hackathon, we've formed three teams: Data Science, Software, and UI/UX. Each team plays a crucial role in making Toronto's open data more accessible and valuable to the general public.
