@@ -23,21 +23,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Reema
 - Apurba
 
-## Project Setup
+### Project Setup
 To get started with the project locally, follow these steps:
 
-# Clone the repository
+### Clone the repository
 git clone git@github.com:manyprojects/open-data-toronto.git
 
-# Change into the project directory
+### Change into the project directory
 cd open-data-toronto<br>
 cd SOFTWARE<br>
 cd client<br>
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Start the development 
+### Start the development 
 npm start
 
 ## Acknowledgments
