@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Kai
 - Ami
 
-#### UI/UX Team
+#### Data Science Team
 - Reema
 - Apurba
 
